@@ -39,3 +39,13 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.leftcolumn {
+  float: left;
+  width: 80%;
+}
+
+.rightcolumn {
+  float: right;
+  width: 20%;
+}
