@@ -9,15 +9,15 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi, my name is <strong>Danny Vasta</strong>! I'm a Software Engineer <i>(currently open for work)</i> with a passion for frontend/web development technologies. I care about code maintenance, user experience and accessibility.</p>
-        <p>Experienced with React, Redux, Javascript/Typescript and Frontend Architecture design efforts.</p>
+        <p>Hi there, my name is <strong>Danny</strong>! I'm a Software Engineer <i>(currently open for work!)</i> with a passion for frontend/web development technologies. I care about code maintenance, user experience and accessibility.</p>
+        <p>I am experienced with React, Redux, Javascript/Typescript and frontend architecture design efforts.</p>
       </section>
-      <section class="leftcolumn">
+      <section className="leftcolumn">
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-          <h2 className={utilStyles.headingLg}>Info</h2>
+          <h2 className={utilStyles.headingLg}>info</h2>
           <ul className={utilStyles.list}>
             <li className={utilStyles.listItem}>
-              <a href="/resume.pdf" target="_blank">Resume</a>
+              <a href="/resume.pdf" target="_blank">resume</a>
             </li>
             <li className={utilStyles.listItem}>
               <a href="https://www.linkedin.com/in/daniel-vasta/" target="_blank">LinkedIn</a>
@@ -28,12 +28,12 @@ export default function Home() {
           </ul>
         </section>
       </section>
-      <section class="rightcolumn">
+      <section className="rightcolumn">
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-          <h2 className={utilStyles.headingLg}>Contact</h2>
+          <h2 className={utilStyles.headingLg}>contact</h2>
           <ul className={utilStyles.list}>
             <li className={utilStyles.listItem}>
-              <a href="mailto:djv711@gmail.com" target="_blank">E-mail</a>
+              <a href="mailto:djv711@gmail.com" target="_blank">e-mail</a>
             </li>
           </ul>
         </section>
