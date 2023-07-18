@@ -9,7 +9,7 @@ export default function Home() {
         <Head>
           <title>{siteTitle}</title>
         </Head>
-        <span className="twoSecondFadeIn">
+        <section className="twoSecondFadeIn">
           <section className={utilStyles.headingMd}>
             <p>
               Hi there, my name is <strong>Danny</strong>! I'm a Software
@@ -63,7 +63,7 @@ export default function Home() {
               </ul>
             </section>
           </section>
-        </span>
+        </section>
       </Layout>
     </>
   );
