@@ -49,3 +49,32 @@ img {
   float: right;
   width: 20%;
 }
+
+/* .introText {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.oneSecondFadeIn {
+  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
+  animation: 1s ease 0s normal forwards 1 fadein;
+}
+
+.twoSecondFadeIn {
+  -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+  animation: 2s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}

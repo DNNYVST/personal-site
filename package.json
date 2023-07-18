@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\""
   },
   "dependencies": {
     "@react-pdf/renderer": "^3.1.12",
@@ -20,5 +21,8 @@
   },
   "engines": {
     "node": "18.x"
+  },
+  "devDependencies": {
+    "prettier": "3.0.0"
   }
 }
