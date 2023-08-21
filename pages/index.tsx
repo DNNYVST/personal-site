@@ -14,8 +14,7 @@ export default function Home() {
             <p>
               Hi there, my name is <strong>Danny</strong>! I'm a Software
               Engineer <i>(currently open for work!)</i> with a passion for
-              frontend/web development technologies. I care about code
-              maintenance, user experience and accessibility.
+              frontend/web development technologies.
             </p>
             <p>
               I am experienced with React, Redux, Javascript/Typescript and
