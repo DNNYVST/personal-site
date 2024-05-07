@@ -78,3 +78,28 @@ img {
   66% { opacity:0; }
   100% { opacity:1; }
 }
+
+#clouds {
+  z-index: -1;
+  position: fixed;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  margin-left: -50%;
+}
+
+#thunderstorm_daisies {
+  /* position: fixed;
+  z-index: -2;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50vw;
+  height: 100vh;
+  object-fit: cover; */
+  z-index: -2;
+  position: fixed;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
