@@ -13,14 +13,46 @@ export default function Home() {
           <section className={utilStyles.headingMd}>
             <p>
               Hi there, my name is <strong>Danny</strong>! I'm a Software
-              Engineer <i>(currently open for work!)</i> with a passion for
-              frontend/web development technologies.
-            </p>
-            <p>
-              I am experienced with React, Redux, Javascript/Typescript and
-              frontend architecture design efforts.
+              Engineer <i>(currently open for work!)</i> with{" "}
+              <span className="greenText">6+ years of experience</span> and a
+              passion for frontend/web development technologies. I am
+              experienced with React, Redux, Javascript/Typescript and frontend
+              architecture design efforts.
             </p>
           </section>
+          <hr />
+          <section>
+            Some things I'm currently interested in, learning and experimenting
+            with on my own time <i>(Github to be updated soon)</i>:
+            <ul>
+              <li>
+                Latest <a href="https://react.dev/">React</a> updates
+              </li>
+              <li>
+                <a href="https://nextjs.org/" target="_blank">
+                  Next.js
+                </a>
+              </li>
+              <li>
+                <a href="https://threejs.org/" target="_blank">
+                  three.js
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://docs.pmnd.rs/react-three-fiber/getting-started/introduction"
+                  target="_blank"
+                >
+                  React Three Fiber
+                </a>
+              </li>
+              <li>AI / machine learning</li>
+              <li>
+                Twitch Chat game / side project using{" "}
+                <a href="https://www.npmjs.com/package/tmi.js">tmi.js</a>
+              </li>
+            </ul>
+          </section>
+          <hr />
           <section className="leftcolumn">
             <section
               className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}

@@ -35,6 +35,15 @@ a:hover {
   font-style: italic;
 }
 
+.greenText {
+  color: #5de4c7;
+}
+
+hr {
+  border: 1px solid #ffa7c4;
+  opacity: .3;
+}
+
 img {
   max-width: 100%;
   display: block;
