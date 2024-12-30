@@ -13,9 +13,14 @@ export default function Home() {
           <section className={utilStyles.headingMd}>
             <p>
               Hi there, my name is <strong>Danny</strong>! I'm a Software
-              Engineer <i>(currently open for work!)</i> with{" "}
-              <span className="greenText">6+ years of experience</span> and a
-              passion for frontend/web development technologies. I am
+              Engineer
+              <i>
+                {" "}
+                (currently a Fullstack Engineer at{" "}
+                <a href="https://www.chewy.com/">Chewy</a>!){" "}
+              </i>
+              with <span className="greenText">6+ years of experience</span> and
+              a passion for frontend/web development technologies. I am
               experienced with React, Redux, Javascript/Typescript and frontend
               architecture design efforts.
             </p>
